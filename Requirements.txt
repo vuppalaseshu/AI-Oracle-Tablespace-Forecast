@@ -7,4 +7,4 @@
 - Oracle SQL
 - Oracle Enterprise Manager (OEM) Repository Data
 - matplotlib
-- cx_Oracle
+- Oracledb

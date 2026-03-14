@@ -1,0 +1,10 @@
+## Technology Stack
+
+- Python
+- Facebook Prophet (Time-Series Forecasting)
+- Pandas
+- Streamlit Dashboard
+- Oracle SQL
+- Oracle Enterprise Manager (OEM) Repository Data
+- matplotlib
+- cx_Oracle

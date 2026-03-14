@@ -5,8 +5,8 @@ from prophet import Prophet
 # Load Data
 # ------------------------------------
 
-history = pd.read_csv("C:\\Users\\Pavan.Vuppala\\OneDrive - Entain Group\\Desktop\\Pavan\\DataScience\\Oracle-DB-Project\\Git-Hub\\tablespace_history_20260306.csv")
-thresholds = pd.read_csv("C:\\Users\\Pavan.Vuppala\\OneDrive - Entain Group\\Desktop\\Pavan\\DataScience\\Oracle-DB-Project\\Git-Hub\\tablespace_thresholds_20260306.csv")
+history = pd.read_csv("\data\tablespace_history_20260306.csv")
+thresholds = pd.read_csv("\data\tablespace_thresholds_20260306.csv")
 
 history['ROLLUP_TIMESTAMP'] = pd.to_datetime(history['ROLLUP_TIMESTAMP'], format='%d-%b-%y')
 
